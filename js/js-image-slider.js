@@ -1,3 +1,22 @@
+var sliderOptions0=
+{
+	sliderId: "slider0",
+	startSlide: 0,
+	effect: "series0",
+	effectRandom: false,
+	pauseTime: 1800,
+	transitionTime: 500,
+	slices: 1,		
+	boxes: 1,
+	hoverPause: 1,
+	autoAdvance: true,
+	captionOpacity: 0.3,
+	captionEffect: "fade",
+	thumbnailsWrapperId: "thumbs",
+	m: false,
+	license: "b6t80"
+};
+
 var sliderOptions1=
 {
 	sliderId: "slider1",
@@ -55,6 +74,7 @@ var sliderOptions3=
 	license: "b6t80"
 };
 
+var imageslider0=new mcImgSlider(sliderOptions0);
 var imageslider1=new mcImgSlider(sliderOptions1);
 var imageslider2=new mcImgSlider(sliderOptions2);
 var imageslider2=new mcImgSlider(sliderOptions3);

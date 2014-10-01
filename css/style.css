@@ -866,6 +866,10 @@ a:hover {
 }
 #purpose {
     center 120px no-repeat;
+    border-bottom: 0px solid #ededed;
+}
+#alliances {
+    center 120px no-repeat;
     border-bottom: 1px solid #ededed;
 }
 #area2 {
@@ -873,6 +877,13 @@ a:hover {
     border-bottom: 1px solid #ededed;
 }
 #solutions {
+    position: relative;
+    text-align: center;
+    z-index: 4;
+    center 120px no-repeat;
+    border-bottom: 0px solid #ededed;
+}
+#technologies {
     position: relative;
     text-align: center;
     z-index: 4;
